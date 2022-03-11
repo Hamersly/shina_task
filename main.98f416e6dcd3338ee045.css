@@ -1,0 +1,64 @@
+/*!***************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
+  \***************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: grey;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/*!*************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/App.scss ***!
+  \*************************************************************************************************************************************************/
+.App {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.App .pointList {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex: 1;
+      flex: 1;
+}
+.App .pointList .point {
+  padding: 15px;
+  margin: 10px;
+  background: white;
+}
+.App .pointList .point .point-address {
+  margin: 0 0 20px 0;
+}
+.App .pointList .point .point-budgets {
+  display: -ms-flexbox;
+  display: flex;
+}
+.App .pointList .point .point-budgets .point-budgets-budget {
+  margin: 0 10px 0 0;
+  padding: 5px 10px;
+  background: grey;
+}
+.App .map {
+  -ms-flex: 1;
+      flex: 1;
+  height: 80vh;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.98f416e6dcd3338ee045.css.map*/
